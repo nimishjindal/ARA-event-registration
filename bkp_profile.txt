@@ -1,0 +1,44 @@
+/*
+	if(isset($_POST))
+	{
+//		print_r($_POST);
+		$pass=fix_input($_POST['pswd']);
+		$regnum=fix_email($_POST['regnum']);
+
+//hash input pass
+		$password=create_pass($pass);
+		
+		$query="select * from participants where regnum='$regnum'";
+//		echo $query;
+		$result=mysql_query($query,$db_server);
+		if(!$result){
+			echo mysql_error();
+		}
+		else
+		{
+			$row=mysql_fetch_array($result);
+			if(($row['regnum']==$regnum)&&($row['password']==$password))
+			{
+				session_start();
+				$_SESSION['username']=$row['regnum'];
+				$_SESSION['timeout']=time();
+				header('Refresh: 1; URL = profile.php');
+				
+				
+				echo "<br>Name:							".$row['name'];
+				echo "registration number allotted:	".$row['regnum'];
+				echo "phone number:					".$row['number'];
+				echo "email ID:						".$row['email'];
+				echo "Name of institution:			".$row['name of institution'];
+				echo "Sex:							".$row['gender'];
+				
+				
+			
+			}
+			else {
+				echo "password and email address dont match <a href='login.php'>click here to try again</a>";
+			}				
+		}
+	}
+*/
+?>

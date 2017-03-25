@@ -1,0 +1,71 @@
+
+.col-lg-6{
+  padding: 2%;
+}
+.row{
+  padding: 2%;
+}
+.navbar-nav>li>a {
+  line-height: 25px;
+}
+html{
+  padding-top: 50px
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar {
+	
+	box-shadow: 0px 0px 10px 0px #433B3B;
+    margin-bottom: 0;
+}
+
+#content{
+    padding : 2%;
+}
+#onstore{
+  width: 150px;
+}
+
+#numparticipants{
+	text-align:center;
+	margin:	0;
+	padding: 8px;
+	background-color: blue;
+	height: 50px;
+	color: white;
+	
+}
+.error_msg{
+	font-size: small; 
+	color: red; 
+}
+.form-control{
+	margin: 2% 0%;
+	height: 40px;
+	width: 100%
+}
+.popuplogin{
+	margin: 5px 5px;
+
+}
+.popover{
+	width: 300px;
+}
+.popover-title .close{
+        position: relative;
+        bottom: 3px;
+    }
+#user{
+	
+	margin: 5px 10px;
+	padding: 10px 15px;
+	
+}
+#nph{
+	 font-size:xx-small;
+}
+#np{
+	font-size:x-large;
+}
